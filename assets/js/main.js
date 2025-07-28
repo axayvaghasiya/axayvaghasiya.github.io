@@ -333,7 +333,7 @@
     });
 })(jQuery);
 
-/ Add some interactive sparkle effects on mouse move
+// Add some interactive sparkle effects on mouse move
         document.addEventListener('mousemove', function(e) {
             if (Math.random() > 0.95) {
                 createSparkle(e.clientX, e.clientY);
